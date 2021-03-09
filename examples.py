@@ -1,3 +1,5 @@
+from library import *
+
 print("FRUITFLY TESTCROSS EXAMPLE 1:")
 print("Cross between a white eyed, vestigial winged parent and a red eyed, wild type winged parent.")
 print("The first parent is homozygous recessive for both traits, the other is homozygous dominant for both.")
