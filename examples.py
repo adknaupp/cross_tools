@@ -4,10 +4,10 @@ print("FRUITFLY TESTCROSS EXAMPLE 1:")
 print("Cross between a white eyed, vestigial winged parent and a red eyed, wild type winged parent.")
 print("The first parent is homozygous recessive for both traits, the other is homozygous dominant for both.")
 
-# White Eyed, Vestigial winged
-parent2 = Two_factor_unlinked(Assortment('w','w', dominant_phenotype='Red Eyes', recessive_phenotype='White Eyes'), Assortment('b','b',dominant_phenotype='WT wings', recessive_phenotype='Vestigial wings'))
 # Red Eyed, WT winged
 parent1 = Two_factor_unlinked(Assortment('W','W', dominant_phenotype='Red Eyes', recessive_phenotype='White Eyes'), Assortment('B','B',dominant_phenotype='WT wings', recessive_phenotype='Vestigial wings'))
+# White Eyed, Vestigial winged
+parent2 = Two_factor_unlinked(Assortment('w','w', dominant_phenotype='Red Eyes', recessive_phenotype='White Eyes'), Assortment('b','b',dominant_phenotype='WT wings', recessive_phenotype='Vestigial wings'))
 
 f1_generation = parent1.cross(parent2)
 
